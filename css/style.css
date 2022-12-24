@@ -29,3 +29,12 @@ img {
 	left: 0;
 	object-fit: cover;
 }
+
+/* --------FOOTER----------- */
+
+footer{
+	display: inline;
+	background-image:  linear-gradient(90deg, red, blue);
+	background-clip: text;
+	color: tra;
+}
