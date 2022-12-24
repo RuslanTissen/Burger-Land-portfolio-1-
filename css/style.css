@@ -7,7 +7,25 @@
 	box-sizing: border-box;
 }
 
+/* ------------MAIN----------------- */
+
 .main {
 	height: 60vh;
 	background-color: rgb(71,67,62);
+	display: flex;
+}
+
+.main__image{
+	flex: 0 0 50%;
+	position: relative;
+	/* padding: 0px 0px 30% 0px; */
+	}
+
+img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	object-fit: cover;
 }
