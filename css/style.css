@@ -1,6 +1,6 @@
 *,
 *::before,
-::after{
+::after {
 	padding: 0;
 	margin: 0;
 	border: 0;
@@ -10,20 +10,20 @@
 /* ------------MAIN----------------- */
 
 .main {
-	height: 60vh;
-	background-color: rgb(71,67,62);
+	height: 70vh;
+	background-color: rgb(71, 67, 62);
 	display: flex;
+	padding: 50px 50px 50px 300px;
 }
 
-.main__image{
+.main__image {
 	flex: 0 0 50%;
 	position: relative;
-	/* padding: 0px 0px 30% 0px; */
-	}
+}
 
-img{
+img {
 	position: absolute;
-	width: 100%;
+	width: 40%;
 	height: 100%;
 	top: 0;
 	left: 0;
