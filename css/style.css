@@ -1,0 +1,13 @@
+*,
+*::before,
+::after{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+.main {
+	height: 60vh;
+	background-color: rgb(71,67,62);
+}
