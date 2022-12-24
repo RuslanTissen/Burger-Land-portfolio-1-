@@ -1,0 +1,12 @@
+{
+	"ecsstractor_port.brackets": true,
+	"ecsstractor_port.bem_nesting": false,
+	"ecsstractor_port.attributes": "className",
+	"ecsstractor_port.element_separator": "__",
+	"ecsstractor_port.empty_line_before_nested_selector": true,
+	"ecsstractor_port.brackets_newline_after": true,
+	"ecsstractor_port.modifier_separator": "-",
+	"ecsstractor_port.add_comment": true,
+	"ecsstractor_port.comment_style": "scss",
+	"ecsstractor_port.indentation": ""
+}

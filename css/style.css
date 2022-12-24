@@ -30,11 +30,26 @@ img {
 	object-fit: cover;
 }
 
+.main__text {
+}
+.main__text-title {
+}
+.main__text-box {
+}
+.main__text-box-img {
+}
+.main__text-box-text {
+}
+
+
 /* --------FOOTER----------- */
 
 footer p {
 	display: inline;
+	font-size: 2rem;
+	font-weight: 700;
 	background-image: linear-gradient(90deg, red, blue);
 	background-clip: text;
-	/* color: transparent; */
+	-webkit-background-clip: text;
+	color: transparent;
 }
