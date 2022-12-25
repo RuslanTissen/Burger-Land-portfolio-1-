@@ -27,8 +27,8 @@ body {
 	flex: 0 0 50%;
 	position: relative;
 }
-@media (max-width:479px) {
-	.main__image{
+@media (max-width: 479px) {
+	.main__image {
 		flex: 1 1 100%;
 	}
 }
@@ -69,4 +69,5 @@ footer p {
 	background-clip: text;
 	-webkit-background-clip: text;
 	color: transparent;
+	filter: blur(2px); /*! make blur effect
 }
