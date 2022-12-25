@@ -12,45 +12,31 @@ body {
 }
 
 /* ------------MAIN----------------- */
-
 .main {
-	height: 70vh;
-	/* width: 100vw; */
-	min-width: 600px;
-	background-color: rgb(71, 67, 62);
-	display: flex;
-	flex-wrap: wrap;
-	padding: 50px 50px 50px 300px;
+	width: 100vw;
+	height: 80vh;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-template-areas:
+		"img title"
+		"img minBox";
 }
-
 .main__image {
-	flex: 0 0 50%;
-	position: relative;
+	/* width: 100%; */
+	height: inherit;
+	grid-area: img;
 }
-@media (max-width: 479px) {
-	.main__image {
-		flex: 1 1 100%;
-	}
-}
-
 img {
-	position: absolute;
-	width: 40%;
-	min-width: 300px;
+	width: 100%;
 	height: 100%;
-	top: 0;
-	left: 0;
+	border: none;
 	object-fit: cover;
 }
-
-.main__text {
-	width: 50%;
+.main__title {
+	grid-area: title;
 }
-.main__text-title {
-	font-weight: 400;
-	line-height: calc(1.3 * (1 + (1 - 5.5) / 25));
-	font-size: calc((3.5 - 1) * 1.2vw + 1rem);
-	color: white;
+.main__small {
+	grid-area: minBox;
 }
 .main__text-box {
 }
@@ -58,7 +44,6 @@ img {
 }
 .main__text-box-text {
 }
-
 /* --------FOOTER----------- */
 
 footer p {
@@ -69,5 +54,5 @@ footer p {
 	background-clip: text;
 	-webkit-background-clip: text;
 	color: transparent;
-	filter: blur(2px); /*! make blur effect
+	filter: blur(2px); // make blur effect
 }
