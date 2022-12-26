@@ -59,14 +59,33 @@ body {
 .main__title p {
 	color: white;
 	font-size: 5rem;
-	letter-spacing: .15rem;
+	letter-spacing: 0.15rem;
 }
 .main__small {
 	grid-area: minBox;
+	display: flex;
+	padding: 0px 150px;
 }
 .main__small-img {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.main__small-img img {
+	width: 100%;
+	justify-content: cover;
 }
 .main__small-text {
+	width: 50%;
+	height: 100%;
+	/* display: inline-block;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center; */
+	padding-left: 60px;
+	color: white;
+	font-size: 1.5rem;
 }
 /* --------FOOTER----------- */
 
