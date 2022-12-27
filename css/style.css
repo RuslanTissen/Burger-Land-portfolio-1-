@@ -52,9 +52,8 @@ body {
 .main__title {
 	grid-area: title;
 	display: flex;
-	justify-content: center;
 	align-items: center;
-	padding: 0px 150px;
+	padding-left:  250px;
 }
 .main__title p {
 	color: white;
@@ -64,28 +63,27 @@ body {
 .main__small {
 	grid-area: minBox;
 	display: flex;
-	padding: 0px 150px;
 }
 .main__small-img {
-	width: 50%;
+	width: 100%;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	padding-left: 250px;
 }
 .main__small-img img {
-	width: 100%;
-	justify-content: cover;
+	max-width: 100%;
+	min-width: 300px;
 }
 .main__small-text {
-	width: 50%;
+	/* width: minmax(300px, 350px); */
 	height: 100%;
 	/* display: inline-block;
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: center; */
-	padding-left: 60px;
+	/* padding-left: 60px;
 	color: white;
-	font-size: 1.5rem;
+	font-size: 1.5rem; */
 }
 /* --------FOOTER----------- */
 
