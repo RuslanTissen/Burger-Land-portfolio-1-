@@ -20,15 +20,15 @@ body {
 /* ------------MAIN----------------- */
 
 .main {
-	width: 100vw;
+	max-width: 2500px;
 	height: 80vh;
-	background-color: rgb(71, 67, 62);
 	display: grid;
 	gap: 1rem;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	grid-template-areas:
 		"img title"
 		"img minBox";
+	background-color: rgb(71, 67, 62);
 }
 .main__image {
 	height: inherit;
@@ -50,48 +50,66 @@ body {
 	object-fit: cover;
 }
 .main__title {
+	
 	grid-area: title;
 	display: flex;
 	align-items: center;
-	padding-left:  250px;
-	padding-right: 100px;
+	padding: 50px 100px 0px 250px;
 }
 .main__title p {
 	color: white;
 	font-size: 5rem;
 	letter-spacing: 0.15rem;
 }
+@media (max-width: 1800px) {
+	.main__title {
+		padding: 50px 100px 0px 150px;
+	}
+	.main__title p{
+		font-size: 4rem;
+	}
+}
+
 .main__small {
 	grid-area: minBox;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-.main__small-box{
+.main__small-box {
 	height: 100%;
 	display: flex;
 	padding: 50px 100px 0px 250px;
 }
+@media (max-width: 1800px) {
+	.main__small-box {
+		padding: 50px 100px 0px 150px;
+	}
+}
+
 .main__small-img {
 	width: 100%;
 	height: 100%;
 	display: flex;
-	justify-content: end;
-	padding-right: 30px;
+	justify-content: start;
+	padding-right: 50px;
 }
 .main__small-img img {
-	max-width:250px;
+	max-width: 250px;
 	min-width: 150px;
 	height: 80%;
 	object-fit: cover;
+	box-sizing: border-box;
 }
 .main__small-text {
 	display: flex;
-	align-items: flex-start;
+	align-items: center;
+	height: 80%;
 }
-.main__small-text-box{
+.main__small-text-box {
 	color: white;
 	font-size: 1.5rem;
+	line-height: 1.5;
 }
 /* --------FOOTER----------- */
 
