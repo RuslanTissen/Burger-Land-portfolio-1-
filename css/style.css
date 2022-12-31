@@ -235,3 +235,6 @@ footer {
 	background-color: yellowgreen;
 	grid-area: three;
 }
+.fa-solid{
+	color: red;
+}
