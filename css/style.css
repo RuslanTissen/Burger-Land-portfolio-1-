@@ -51,10 +51,17 @@ body {
 	justify-content: flex-end;
 	padding: 50px 100px 0px 0px;
 }
+
 .main__image-pic {
 	width: 65%;
 	height: 72%;
 	object-fit: cover;
+}
+@media (max-width:2000px) {
+	.main__image-pic {
+		min-width: 300px;
+		object-fit: cover;
+	}
 }
 .main__title {
 	grid-area: title;
