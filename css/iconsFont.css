@@ -31,7 +31,7 @@
 .fa-regular {
   font-family: 'Font Awesome 6 Free'; }
 
-.fab,
+.fab::before,
 .fa-brands {
   font-family: 'Font Awesome 6 Brands'; }
 
@@ -6378,7 +6378,7 @@ readers do not read off random characters that represent icons */
   font-display: block;
   src: url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.ttf") format("truetype"); }
 
-.fab,
+.fab::before,
 .fa-brands {
   font-weight: 400; }
 

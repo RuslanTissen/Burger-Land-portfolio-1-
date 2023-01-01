@@ -18,8 +18,32 @@ body {
 }
 
 /* ------------HEADER---------------- */
+.header {
+}
+.header__logo {
+	color: rgb(175, 82, 75);
+}
+.nav__menu {
+}
+.menu__list {
+}
+.menu__item {
+}
+.menu__link {
+	color: rgb(175, 82, 75);
+}
 
-
+.trolly {
+	display: flex;
+	font-size: 2rem;
+	color: rgb(175, 82, 75);
+}
+.fa-cart-shopping {
+	background-color: green;
+	color: yellow;
+}
+.fa-solid {
+}
 
 /* ------------MAIN----------------- */
 
@@ -36,7 +60,7 @@ body {
 	display: grid;
 	gap: 1rem 5rem;
 	grid-template-columns: repeat(2, 650px);
-	grid-template-rows: repeat(2,400px);
+	grid-template-rows: repeat(2, 400px);
 	grid-template-areas:
 		"img title"
 		"img minBox";
@@ -46,7 +70,7 @@ body {
 		display: grid;
 		gap: 0.5rem 4rem;
 		grid-template-columns: repeat(2, minmax(450px, 650px));
-		grid-template-rows: repeat(2,minmax(250px, 400px));
+		grid-template-rows: repeat(2, minmax(250px, 400px));
 	}
 }
 .main__image {
@@ -61,7 +85,7 @@ body {
 	height: 72%;
 	object-fit: cover;
 }
-@media (max-width:2000px) {
+@media (max-width: 2000px) {
 	.main__image-pic {
 		min-width: 300px;
 		object-fit: cover;
@@ -235,6 +259,6 @@ footer {
 	background-color: yellowgreen;
 	grid-area: three;
 }
-.fa-solid{
+.fa-solid {
 	color: red;
 }
