@@ -19,30 +19,35 @@ body {
 
 /* ------------HEADER---------------- */
 .header {
+	width: 100vw;
+	display: grid;
+	grid-template-columns: 100px, auto, 100px;
+	grid-template-rows: 50px ;
+	grid-template-areas: 
+	"logoBurger menu shopingCart";
 }
 .header__logo {
 	color: rgb(175, 82, 75);
-}
-.nav__menu {
+	grid-area: logoBurger;
 }
 .menu__list {
+	display: flex;
+	grid-area: menu;
+	list-style: none;
 }
 .menu__item {
+	width: 100px;
 }
 .menu__link {
 	color: rgb(175, 82, 75);
 }
-
 .trolly {
 	display: flex;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	color: rgb(175, 82, 75);
-}
-.fa-cart-shopping {
-	background-color: green;
-	color: yellow;
-}
-.fa-solid {
+	justify-self: end;
+	grid-area: shopingCart;
+	padding-right: 50px;
 }
 
 /* ------------MAIN----------------- */

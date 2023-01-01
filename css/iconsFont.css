@@ -4125,7 +4125,8 @@ readers do not read off random characters that represent icons */
   content: "\e54b"; }
 
 .fa-cart-shopping::before {
-  content: "\f07a"; }
+  content: "\f07a";
+ }
 
 .fa-shopping-cart::before {
   content: "\f07a"; }
