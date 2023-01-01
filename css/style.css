@@ -21,7 +21,7 @@ body {
 .header {
 	width: 100vw;
 	display: grid;
-	grid-template-columns: 100px, auto, 50px;
+	grid-template-columns: 250px auto 50px;
 	grid-template-rows: 50px ;
 	grid-template-areas: 
 	"logo menu cart"
@@ -32,6 +32,8 @@ body {
 	grid-area: logo;
 	place-self: center;
 	text-decoration: none;
+	font-size: 1.5rem;
+	font-weight: 700;
 }
 .menu__list {
 	display: flex;
@@ -253,11 +255,11 @@ footer p {
 }
 footer {
 	display: grid;
-	grid-template-columns: repeat(2, 300px);
+	grid-template-columns: 100px 200px 300px;
 	grid-template-rows: repeat(2, 150px);
 	grid-template-areas:
-		"first two"
-		"first three";
+		"first two three"
+	;
 	gap: 5px 10px;
 	color: rebeccapurple;
 	justify-content: center;
