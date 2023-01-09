@@ -1,3 +1,7 @@
-import  bottle from "./utils.js"
+// import  bottle from "./utils.js"
 
-bottle()
+// bottle()
+
+
+import { water } from './utils.js'
+console.log(water());
