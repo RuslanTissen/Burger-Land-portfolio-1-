@@ -146,11 +146,13 @@ body {
 		flex: 0 1 100%;
 	}
 	.main__section-left {
-		display: block;
 		padding: 0px 0px 140% 0px;
 	}
 	.main__image-pic {
 		padding: 6% 4%;
+	}
+	/* .main__section-right {
+		padding: 0px 0px 140% 0px;
 	}
 	.main__section-right-title {
 		width: 100%;
@@ -162,6 +164,10 @@ body {
 		line-height: 1.15;
 		padding-bottom: 50px;
 	}
+	.main__section-right-pic {
+		width: 100%;
+		height: 50%;
+	} */
 }
 
 /* --------FOOTER -------------- */
