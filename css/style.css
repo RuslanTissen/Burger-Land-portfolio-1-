@@ -153,36 +153,30 @@ body {
 	.main__section-right-img-vegetables {
 		padding: 8% 6%;
 	}
-	.main__section-right {
-		/* padding: 0px 0px 50% 0px; */
-		/* height: 150%; */
-	}
 	.main__section-right-title {
 		width: 100%;
 		height: fit-content;
 		font-size: 4rem;
 		line-height: 1.15;
-		padding: 0px 150px 0px 4%;
+		padding: 0px 150px 0px 6%;
 	}
-	.main__section-right-pic {
+	.main__section-right {
 		width: 100%;
 		height: fit-content;
 	}
-	/* .main__section-right-pic-wrapper{
-		height: fit-content;
-	} */
 	.main__section-right-pic-img,
 	.main__section-right-pic-text {
 		flex: 0 1 100%;
 	}
 	.main__section-right-pic-img {
-		padding-bottom: 33%;
+		padding-bottom: 50%;
 	}
 	.main__section-right-img-vegetables {
-		height: 140%;
+		height: 160%;
 	}
 	.main__section-right-pic-text {
-		padding-bottom: 15%;
+		padding: 0px 50px 15% 6%;
+		font-size: 1.5rem;
 	}
 }
 
