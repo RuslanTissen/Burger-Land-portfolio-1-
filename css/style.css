@@ -21,49 +21,7 @@ body {
 	flex-direction: column;
 }
 
-/* ------------HEADER---------------- */
-.header {
-	width: 100vw;
-	display: grid;
-	grid-template-columns: 250px auto 50px;
-	grid-template-rows: 50px;
-	grid-template-areas: "logo menu cart";
-}
-.header__logo {
-	color: rgb(175, 82, 75);
-	grid-area: logo;
-	place-self: center;
-	text-decoration: none;
-	font-size: 1.5rem;
-	font-weight: 700;
-}
-.menu__list {
-	display: flex;
-	grid-area: menu;
-	list-style: none;
-}
-.menu__item {
-	width: 100px;
-	align-self: center;
-}
-.menu__link {
-	color: rgb(175, 82, 75);
-	text-decoration: none;
-}
-.trolly {
-	display: flex;
-	font-size: 1.5rem;
-	color: rgb(175, 82, 75);
-	grid-area: cart;
-	justify-content: end;
-	padding-right: 50px;
-	text-decoration: none;
-}
-.fa-solid,
-.number {
-	align-self: center;
-	padding: 0px 5px 0px 5px;
-}
+
 
 /*------------- IMAGES ----------------------------  */
 
@@ -79,7 +37,7 @@ body {
 	object-fit: cover;
 }
 
-/* ------------MAIN Version N3 ----------------- */
+/* ------------MAIN Version N3 (the best one)----------------- */
 
 .main {
 	width: 100vw;
@@ -101,22 +59,17 @@ body {
 	padding: 0px 0px 70% 0px;
 }
 .main__image-pic {
-	padding: 40px 150px 200px 20px;
+	/* padding: 40px 150px 200px 20px; */
+	padding: 10% 30% 30% 5%;
 }
 .main__section-right-title {
-	width: 100%;
 	height: 50%;
 	display: flex;
 	justify-content: center;
-	align-items: flex-end;
+	align-items: center;
 	font-size: 4rem;
 	color: white;
 	line-height: 1.15;
-	padding-bottom: 50px;
-}
-.main__section-right-pic {
-	width: 100%;
-	height: 50%;
 }
 .main__section-right-pic-wrapper {
 	width: 100%;
@@ -125,16 +78,14 @@ body {
 	flex-wrap: wrap;
 }
 .main__section-right-pic-img {
-	flex: 0 1 33%;
+	flex: 0 1 35%;
+	padding: 0px 0px 70% 0px;
 }
 .main__section-right-img-vegetables {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
 	padding: 40px 0px;
 }
 .main__section-right-pic-text {
-	flex: 0 1 67%;
+	flex: 0 1 65%;
 	color: white;
 	display: flex;
 	flex-direction: column;

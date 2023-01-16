@@ -1,0 +1,91 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: rgb(175,82,75);
+	margin: 0 30px 0 30px;
+}
+.brand-title {
+	font-size: 1.5rem;
+	margin: .5rem;
+}
+.navbar-links ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+.navbar-links li{
+	list-style: none;
+}
+.navbar-links li a{
+	text-decoration: none;
+	color: rgb(175,82,75);
+	padding: 1rem;
+	display: block;
+}
+.navbar-links li:hover{
+	background-color: rgb(199, 198, 198);
+}
+.trolly{
+	display: flex;
+	width: 150px;
+	text-decoration: none;
+	justify-content: end;
+	align-items: center;
+}
+.trolly div{
+	padding: .3rem;
+}
+.fa-solid{
+	font-size: 1.5rem;
+}
+.number{
+	color: rgb(175,82,75);
+}
+
+
+
+/* -------- VERSION 1----------- */
+
+/* .navbar {
+	width: 100vw;
+	display: grid;
+	grid-template-columns: 250px auto 50px;
+	grid-template-rows: 50px;
+	grid-template-areas: "logo menu cart";
+}
+.header__logo {
+	color: rgb(175, 82, 75);
+	grid-area: logo;
+	place-self: center;
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+.menu__list {
+	display: flex;
+	grid-area: menu;
+	list-style: none;
+}
+.menu__item {
+	width: 100px;
+	align-self: center;
+}
+.menu__link {
+	color: rgb(175, 82, 75);
+	text-decoration: none;
+}
+.trolly {
+	display: flex;
+	font-size: 1.5rem;
+	color: rgb(175, 82, 75);
+	grid-area: cart;
+	justify-content: end;
+	padding-right: 50px;
+	text-decoration: none;
+}
+.fa-solid,
+.number {
+	align-self: center;
+	padding: 0px 5px 0px 5px;
+} */
