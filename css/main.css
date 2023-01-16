@@ -11,6 +11,8 @@ body {
 	font-family: Clarkson, "Proxima Nova", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background: rgb(255, 255, 255);
 	height: 100%;
+	padding: 0;
+	padding: 0;
 }
 /* ------------Wrapper-------------- */
 
@@ -20,8 +22,6 @@ body {
 	display: flex;
 	flex-direction: column;
 }
-
-
 
 /*------------- IMAGES ----------------------------  */
 
