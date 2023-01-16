@@ -37,8 +37,9 @@
 	width: 100px;
 	justify-content: flex-end;
 	align-items: center;
-	gap: 10px;
+	gap: 10px;  
 }
+/* ----- NEED to move it in thee end!!! */
 .trolly a {
 	text-decoration: none;
 	display: block;
