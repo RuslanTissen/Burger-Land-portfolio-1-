@@ -1,0 +1,26 @@
+@media (min-width: 40em) {
+	.section1 {
+		max-width: 100rem;
+		min-height: 650px;
+		margin: 150px auto -50px auto;
+		display: flex;
+		gap: 2em;
+	}
+	.section-one {
+		flex: 0 1 33.33%;
+	}
+	.section-two {
+		flex: 0 1 33.33%;
+	}
+	.section-three {
+		flex: 0 1 33.33%;
+	}
+	.section-two img,
+	.section-three img {
+		min-height: 100%;
+		max-width: 100%;
+		object-fit: cover;
+	}
+}
+
+

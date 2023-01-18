@@ -6,6 +6,9 @@
 	border: 0;
 	box-sizing: border-box;
 }
+html{
+	scroll-behavior: smooth;
+}
 
 body {
 	font-family: Clarkson, "Proxima Nova", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -59,7 +62,6 @@ body {
 	padding: 0px 0px 70% 0px;
 }
 .main__image-pic {
-	/* padding: 40px 150px 200px 20px; */
 	padding: 10% 30% 30% 5%;
 }
 .main__section-right-title {
