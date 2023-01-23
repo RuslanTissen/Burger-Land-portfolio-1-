@@ -1,18 +1,44 @@
 @media (max-width: 40em) {
 	.section1 {
-		/* height: fit-content; */
 		display: block;
+		padding:  30px;
+		font-family: roc-grotesk;
 	}
 	.section1 div:first-child {
-		font-size: clamp(1rem, 0.5rem + 3vw, 3rem);
+		font-size: clamp(1rem, 0.5rem + 1vw, 3rem);
 	}
 	.section1 div:not(:first-child) {
 		min-width: 100%;
 		height: 500px;
 		margin: 10px 0;
 	}
-	.section-two img,
-	.section-three img {
+	.section-one p:nth-child(4){
+		font-size: 1.2em;
+	}
+	.section-one a{
+		width: fit-content;
+		padding: 1% 2%;
+		font-size: clamp(1rem, 0.5rem + 1vw, 3rem);
+		display: block;
+		color: white;
+		background-color: black;
+		margin: 40px 0 30px 0;
+	}
+	.section__text p:first-child {
+		letter-spacing: .5px;
+		font-size: 1.5em;
+	}
+	.section__text p:nth-child(2) {
+		font-size: 1em;
+		line-height: 1.5em;
+		margin: 15px 0 ;
+	}
+	.section__picture {
+		height: 80%;
+		width: 100%;
+		/* object-fit: cover; */
+	}
+	.section__picture img {
 		height: 100%;
 		width: 100%;
 		object-fit: cover;
@@ -33,7 +59,6 @@
 	.section-one p:nth-child(2) {
 		font-family: roc-grotesk;
 		letter-spacing: 2px;
-		
 	}
 	.section-one p:nth-child(4) {
 		width: 60%;
@@ -58,7 +83,7 @@
 	}
 	.section__picture {
 		width: 100%;
-		height: 60%;
+		height: 50%;
 		padding: 0 15px 15px 15px;
 	}
 	.section__picture img {
